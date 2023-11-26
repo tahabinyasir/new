@@ -33,3 +33,13 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-primitive)
+
+// Stack ke andar hamain copy milta hai. // aur Heap ke andar hamain reference milta hai aur ham jo bhi changes karte hain wo hum original value ke andar hi karte hain
