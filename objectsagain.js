@@ -45,10 +45,25 @@ const users = [
 ]
 
 users[1].email
-console.log(facebookUser);
+// console.log(facebookUser);
 
-console.log(Object.keys(facebookUser));
-console.log(Object.values(facebookUser));
-console.log(Object.entries(facebookUser));
+// console.log(Object.keys(facebookUser));
+// console.log(Object.values(facebookUser));
+// console.log(Object.entries(facebookUser));
 
-console.log(Object.hasOwnProperty(isLooggedIn));
+// console.log(Object.hasOwnProperty(isLooggedIn));
+
+// =+=+=+=+=+=+=+=+=+=+= Objects Desturucturing +=+=+=+=+=+=+=+=+=+
+
+
+const course = {
+    coursename: "JS in Urdu",
+    price: "999",
+    courseInstructor: "Taha Bin Yasir"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Taha} = course
+
+console.log(Taha);
